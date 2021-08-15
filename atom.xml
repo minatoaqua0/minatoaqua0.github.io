@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-08-15T04:37:16.296Z</updated>
+  <updated>2021-08-15T04:39:13.375Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,24 +17,27 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
+    <title>Test</title>
     <link href="http://example.com/2021/08/15/test/"/>
     <id>http://example.com/2021/08/15/test/</id>
     <published>2021-08-15T04:37:16.296Z</published>
-    <updated>2021-08-15T04:37:16.296Z</updated>
+    <updated>2021-08-15T04:39:13.375Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;hr&gt;
-&lt;p&gt;恐吓式刷铁机理论最高效率，每个村民每小时产出140左右铁定，三个村民一个组合每小时约420。这个是可以通过计算得出的，如果你不清楚你做的刷铁机是否有设计问题，可以简单判断一下，单村民每小时能到130左右就是正常的，低于110肯定有设计缺陷了。有些看上去简单一些的设</summary>
+    <summary type="html">&lt;p&gt;恐吓式刷铁机理论最高效率，每个村民每小时产出140左右铁定，三个村民一个组合每小时约420。这个是可以通过计算得出的，如果你不清楚你做的刷铁机是否有设计问题，可以简单判断一下，单村民每小时能到130左右就是正常的，低于110肯定有设计缺陷了。有些看上去简单一些的设计效率大打</summary>
         
       
     
     
     
+    <category term="Hello World" scheme="http://example.com/categories/Hello-World/"/>
+    
+    
+    <category term="test" scheme="http://example.com/tags/test/"/>
     
   </entry>
   
