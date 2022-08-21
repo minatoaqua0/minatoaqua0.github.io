@@ -75,4 +75,136 @@
         <tag>夸</tag>
       </tags>
   </entry>
+  <entry>
+    <title>神经网络</title>
+    <url>/2022/08/21/1.%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/</url>
+    <content><![CDATA[<h1 id="神经网络"><a href="#神经网络" class="headerlink" title="神经网络"></a>神经网络</h1><h2 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h2><h3 id="1-房价预测"><a href="#1-房价预测" class="headerlink" title="1. 房价预测"></a>1. 房价预测</h3><p><img src="https://minatoaqua.oss-cn-shanghai.aliyuncs.com/img/202208200945079.png" alt="uTools_1660959916336"></p>
+<p><img src="https://minatoaqua.oss-cn-shanghai.aliyuncs.com/img/202208200946265.png" alt="uTools_1660959975231"></p>
+<p>输入x通过节点输出y</p>
+<p>ReLU函数<a href="ReLU%E5%87%BD%E6%95%B0:%22%E4%BF%AE%E6%AD%A3%E7%BA%BF%E6%80%A7%E5%8D%95%E5%85%83%22,%E4%B8%80%E5%BC%80%E5%A7%8B%E4%B8%BA0,%E7%84%B6%E5%90%8E%E7%BA%BF%E6%80%A7.%22%E4%BF%AE%E6%AD%A3%22%E6%8C%87%E7%9A%84%E6%98%AF%E5%8F%96%E4%B8%8D%E5%B0%8F%E4%BA%8E0%E7%9A%84%E5%80%BC">^1</a></p>
+<p>神经网络就是把这些单个神经元组合到一起</p>
+<h3 id="2-多特征的房价预测"><a href="#2-多特征的房价预测" class="headerlink" title="2. 多特征的房价预测"></a>2. 多特征的房价预测</h3><p><img src="https://minatoaqua.oss-cn-shanghai.aliyuncs.com/img/202208200953702.png" alt="uTools_1660960368336"></p>
+<hr>
+]]></content>
+      <categories>
+        <category>Deep Learning</category>
+      </categories>
+      <tags>
+        <tag>神经网络</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>二分分类</title>
+    <url>/2022/08/21/3.%E4%BA%8C%E5%88%86%E5%88%86%E7%B1%BB/</url>
+    <content><![CDATA[<h1 id="二分分类"><a href="#二分分类" class="headerlink" title="二分分类"></a>二分分类</h1><p> <img src="https://minatoaqua.oss-cn-shanghai.aliyuncs.com/img/202208201039547.png" alt="uTools_1660963148129"></p>
+<p>将训练样本即输入x用矩阵表示:</p>
+<p><img src="https://minatoaqua.oss-cn-shanghai.aliyuncs.com/img/202208201042562.png" alt="uTools_1660963341980"></p>
+<p>输出标签y:</p>
+<p><img src="https://minatoaqua.oss-cn-shanghai.aliyuncs.com/img/202208201044481.png" alt="uTools_1660963437501"></p>
+]]></content>
+      <categories>
+        <category>Deep Learning</category>
+      </categories>
+      <tags>
+        <tag>神经网络</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>监督学习</title>
+    <url>/2022/08/21/2.%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[<h1 id="监督学习-1"><a href="#监督学习-1" class="headerlink" title="监督学习^1"></a>监督学习<a href="%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0%E6%98%AF%E6%8C%87%E6%88%91%E4%BB%AC%E7%BB%99%E7%AE%97%E6%B3%95%E4%B8%80%E4%B8%AA%E6%95%B0%E6%8D%AE%E9%9B%86,%E5%85%B6%E4%B8%AD%E5%8C%85%E5%90%AB%E4%BA%86%E6%AD%A3%E7%A1%AE%E7%AD%94%E6%A1%88">^1</a></h1><h2 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h2><h3 id="1-预测房价-回归-2问题"><a href="#1-预测房价-回归-2问题" class="headerlink" title="1. 预测房价(回归^2问题)"></a>1. 预测房价(回归<a href="regression(%E5%9B%9E%E5%BD%92):%E8%AE%BE%E6%B3%95%E9%A2%84%E6%B5%8B%E8%BF%9E%E7%BB%AD%E5%80%BC%E7%9A%84%E5%B1%9E%E6%80%A7">^2</a>问题)</h3><p>横轴是不同房屋的平方英尺数,纵轴是不同房子的价格</p>
+<p>假设有一间750平方英尺的房子,预测价格</p>
+<p><img src="https://minatoaqua.oss-cn-shanghai.aliyuncs.com/img/202208200925324.png" alt="uTools_1660958723336"></p>
+<p><img src="https://minatoaqua.oss-cn-shanghai.aliyuncs.com/img/202208200931236.png" alt="uTools_1660959098516"></p>
+<p>用直线拟合数据后发现用二次函数更好</p>
+<p><img src="https://minatoaqua.oss-cn-shanghai.aliyuncs.com/img/202208200933349.png" alt="uTools_1660959187531"></p>
+<h3 id="2-预测乳腺癌是恶性的还是良性的-分类-3问题"><a href="#2-预测乳腺癌是恶性的还是良性的-分类-3问题" class="headerlink" title="2. 预测乳腺癌是恶性的还是良性的(分类^3问题)"></a>2. 预测乳腺癌是恶性的还是良性的(分类<a href="classification(%E5%88%86%E7%B1%BB):%E8%AE%BE%E6%B3%95%E9%A2%84%E6%B5%8B%E4%B8%80%E4%B8%AA%E7%A6%BB%E6%95%A3%E5%80%BC%E8%BE%93%E5%87%BA">^3</a>问题)</h3><p>在数据集中横轴是肿瘤的尺寸,纵轴0或1代表是或否来判断肿瘤样本是否是恶性的</p>
+<p>恶性的对应1,良性的对应0</p>
+<p><img src="https://minatoaqua.oss-cn-shanghai.aliyuncs.com/img/202208200936491.png" alt="uTools_1660959375801"></p>
+<h2 id="神经网络结构"><a href="#神经网络结构" class="headerlink" title="神经网络结构"></a>神经网络结构</h2><p><img src="https://minatoaqua.oss-cn-shanghai.aliyuncs.com/img/202208200959150.png" alt="uTools_1660960761510"></p>
+<p>机器学习被应用于结构化数据<a href="%E7%BB%93%E6%9E%84%E5%8C%96%E6%95%B0%E6%8D%AE%E6%98%AF%E6%95%B0%E6%8D%AE%E7%9A%84%E6%95%B0%E6%8D%AE%E5%BA%93,%E5%8D%B3%E6%AF%8F%E4%B8%AA%E6%95%B0%E6%8D%AE%E9%83%BD%E6%9C%89%E6%B8%85%E6%99%B0%E7%9A%84%E5%AE%9A%E4%B9%89">^4</a>和非结构化数据<a href="%E9%9D%9E%E7%BB%93%E6%9E%84%E5%8C%96%E6%95%B0%E6%8D%AE%E6%8C%87%E7%9A%84%E6%98%AF%E9%9F%B3%E9%A2%91,%E5%9B%BE%E7%89%87,%E6%96%87%E6%9C%AC%E4%B8%AD%E7%9A%84%E7%89%B9%E5%BE%81">^5</a></p>
+<hr>
+]]></content>
+      <categories>
+        <category>Deep Learning</category>
+      </categories>
+      <tags>
+        <tag>监督学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>logistic回归</title>
+    <url>/2022/08/21/4.logistic%E5%9B%9E%E5%BD%92/</url>
+    <content><![CDATA[<h1 id="logistic回归"><a href="#logistic回归" class="headerlink" title="logistic回归"></a>logistic回归</h1><p><img src="https://minatoaqua.oss-cn-shanghai.aliyuncs.com/img/202208201057948.png" alt="uTools_1660964239096"></p>
+<p>调用sigmoid函数<a href="sigmoid%E5%87%BD%E6%95%B0%E8%A1%A8%E7%A4%BA%E4%BB%8E0%E5%88%B01%E7%9A%84%E5%85%89%E6%BB%91%E5%87%BD%E6%95%B0">^1</a></p>
+<p>实现logistic回归时,要做的是学习参数w和b</p>
+<h2 id="符号约定-可能碰见"><a href="#符号约定-可能碰见" class="headerlink" title="符号约定(可能碰见)"></a>符号约定(可能碰见)</h2><p><img src="https://minatoaqua.oss-cn-shanghai.aliyuncs.com/img/202208201100076.png" alt="uTools_1660964436281"></p>
+<hr>
+]]></content>
+      <categories>
+        <category>Deep Learning</category>
+      </categories>
+      <tags>
+        <tag>神经网络</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Logistic损失函数</title>
+    <url>/2022/08/21/5.logistic%E6%8D%9F%E5%A4%B1%E5%87%BD%E6%95%B0/</url>
+    <content><![CDATA[<h1 id="logistic损失函数"><a href="#logistic损失函数" class="headerlink" title="logistic损失函数"></a>logistic损失函数</h1><p><img src="https://minatoaqua.oss-cn-shanghai.aliyuncs.com/img/202208201116578.png" alt="uTools_1660965363197"></p>
+<p>用损失函数L来衡量你的预测输出值y-hat和y的实际值有多接近,但是在logistic中可能会导致找不到全局最优解</p>
+<p>所以在logistic中用<img src="https://minatoaqua.oss-cn-shanghai.aliyuncs.com/img/202208201119951.png" alt="uTools_1660965583343" style="zoom: 50%;" /></p>
+<p><img src="https://minatoaqua.oss-cn-shanghai.aliyuncs.com/img/202208201125564.png" alt="uTools_1660965915511"></p>
+<p><img src="https://minatoaqua.oss-cn-shanghai.aliyuncs.com/img/202208201128075.png" alt="uTools_1660966109258"></p>
+<p>损失函数适用于单个训练样本,成本函数适用于总成本</p>
+]]></content>
+      <categories>
+        <category>Deep Learning</category>
+      </categories>
+      <tags>
+        <tag>神经网络</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>梯度下降法</title>
+    <url>/2022/08/21/6.%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E6%B3%95/</url>
+    <content><![CDATA[<h1 id="梯度下降法"><a href="#梯度下降法" class="headerlink" title="梯度下降法"></a>梯度下降法</h1><p>横轴表示空间参数w和b,成本函数J(w,b)是在水平轴w和b上的曲面,曲面的高度表示了J(w,b)在某一点的值</p>
+<p>成本函数J是一个凸函数</p>
+<p><img src="https://minatoaqua.oss-cn-shanghai.aliyuncs.com/img/202208201137972.png" alt="uTools_1660966616191"></p>
+<p><img src="https://minatoaqua.oss-cn-shanghai.aliyuncs.com/img/202208201856900.png" alt="uTools_1660992983434"></p>
+]]></content>
+      <categories>
+        <category>Deep Learning</category>
+      </categories>
+      <tags>
+        <tag>梯度下降法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>导数</title>
+    <url>/2022/08/21/7.%E5%AF%BC%E6%95%B0/</url>
+    <content><![CDATA[<h1 id="导数"><a href="#导数" class="headerlink" title="导数"></a>导数</h1><p><img src="https://minatoaqua.oss-cn-shanghai.aliyuncs.com/img/202208210938205.png" alt="uTools_1661045881892"></p>
+<h2 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h2><p><img src="https://minatoaqua.oss-cn-shanghai.aliyuncs.com/img/202208210940413.png" alt="uTools_1661046005386"></p>
+<p><img src="https://minatoaqua.oss-cn-shanghai.aliyuncs.com/img/202208210941126.png" alt="uTools_1661046064415"></p>
+]]></content>
+      <categories>
+        <category>Deep Learning</category>
+      </categories>
+      <tags>
+        <tag>导数</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>计算图求导</title>
+    <url>/2022/08/21/8.%E8%AE%A1%E7%AE%97%E5%9B%BE%E6%B1%82%E5%AF%BC/</url>
+    <content><![CDATA[<h1 id="计算图"><a href="#计算图" class="headerlink" title="计算图"></a>计算图</h1><p><img src="https://minatoaqua.oss-cn-shanghai.aliyuncs.com/img/202208210945462.png" alt="uTools_1661046349969"></p>
+<p><img src="https://minatoaqua.oss-cn-shanghai.aliyuncs.com/img/202208210958070.png" alt="uTools_1661047120165"></p>
+]]></content>
+      <categories>
+        <category>Deep Learning</category>
+      </categories>
+      <tags>
+        <tag>导数</tag>
+      </tags>
+  </entry>
 </search>
